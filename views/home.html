@@ -1,19 +1,13 @@
 <div class="adminCls">
-	<input type="text" ng-model="search" placeholder="Search" />
-	<table class="cardTable">
-		<thead>
-			<tr>
-				<td><label>Card Name <a ng-click="sort_by('cardType')"><i class="icon-sort"></i></a></label></td>
-				<td><label>Card Number <a ng-click="sort_by('cardNo')"><i class="icon-sort"></i></a></label></td>
-			</tr>
-		</thead>
-		<tbody>
-			<tr ng-repeat="card in cardList | filter:search | orderBy:sortingOrder:reverse">
-				<td> {{ card.cardType }} </td>
-				<td> {{ card.cardNo }} </td>
-			</tr>
-		</tbody>
-	</table>
+	<button ng-click="init()">Reset</button>
+    Moves: {{moves}} - Time: {{timer}}
+    <div ng-if="!done" ng-repeat="card in deck.cards">
+      <div class="card" ng-class="{visible: card.visible, cleared: card.cleared, changeLine: ($index % 6 == 0)}"
+      			 ng-click="toggle(card)">
+        <span ng-if="card.visible">{{card.number}}</span>
+      </div>
+    </div>
+    <div ng-if="done" class="done">Done!</div>
 </div>
 	
 		
