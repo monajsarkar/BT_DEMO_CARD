@@ -1,0 +1,66 @@
+[
+  {
+    "cardType": "Clubs",
+    "cardNo": 1
+  },
+  {
+    "cardType": "Clubs",
+    "cardNo": 2
+  },
+  {
+    "cardType": "Clubs",
+    "cardNo": 3
+  },
+  {
+    "cardType": "Clubs",
+    "cardNo": 4
+  },
+  {
+    "cardType": "Spades",
+    "cardNo": 1
+  },
+  {
+    "cardType": "Spades",
+    "cardNo": 2
+  },
+  {
+    "cardType": "Spades",
+    "cardNo": 3
+  },
+  {
+    "cardType": "Spades",
+    "cardNo": 4
+  },
+  {
+    "cardType": "Hearts",
+    "cardNo": 1
+  },
+  {
+    "cardType": "Hearts",
+    "cardNo": 2
+  },
+  {
+    "cardType": "Hearts",
+    "cardNo": 3
+  },
+  {
+    "cardType": "Hearts",
+    "cardNo": 4
+  },
+  {
+    "cardType": "Diamonds",
+    "cardNo": 1
+  },
+  {
+    "cardType": "Diamonds",
+    "cardNo": 2
+  },
+  {
+    "cardType": "Diamonds",
+    "cardNo": 3
+  },
+  {
+    "cardType": "Diamonds",
+    "cardNo": 4
+  }
+]
