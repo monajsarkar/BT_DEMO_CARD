@@ -2,8 +2,7 @@
 	<button ng-click="init()">Reset</button>
     Moves: {{moves}} - Time: {{timer}}
     <div ng-if="!done" ng-repeat="card in deck.cards">
-      <div class="card" ng-class="{visible: card.visible, cleared: card.cleared, changeLine: ($index % 6 == 0)}"
-      			 ng-click="toggle(card)">
+      <div class="card" ng-class="{visible: card.visible, cleared: card.cleared, changeLine: ($index % 6 == 0)}" ng-click="toggle(card)">
         <span ng-if="card.visible">{{card.number}}</span>
       </div>
     </div>
