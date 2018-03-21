@@ -1,0 +1,11 @@
+.adminCls {margin: 2em auto; width: 50%;}
+.adminCls input {height: 34px;}
+.cardTable {
+	background: #fff;
+	border: 1px solid #333;
+	margin-top: 10px;
+}
+.cardTable td {padding: 2px 8px;}
+.cardTable tbody tr:nth-child(odd) {
+    background-color: #eee;
+}
