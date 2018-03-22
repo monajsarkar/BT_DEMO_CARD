@@ -8,7 +8,6 @@
 		<button  type='button' name='sort' (click)='sort()'>Sort</button>
 		<button  type='button' name ='reset' (click)='reset()'>Reset</button>
 	</form>
-
 	<app-cards *ngFor="let card of deckOfcards" [card]="card"></app-cards>
 	<hr/>
 	<h2 *ngIf='drawnCards.length>0'>The drawn cards:</h2>
