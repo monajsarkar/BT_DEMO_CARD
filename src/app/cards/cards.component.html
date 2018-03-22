@@ -1,0 +1,4 @@
+<div class="card" [style.color]="card.suit.slice(1,2)=='h'||card.suit.slice(1,2)=='d' ? 'red' : 'black'">
+	<span>{{card.number | picturecard}}</span> 
+	<span [innerHTML]="card.suit"></span>
+</div>
